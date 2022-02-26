@@ -46,6 +46,7 @@ def get_series_data(request,sensor_key,tot_time,delta):#tot_time: seconds, delta
     last_depression_reading = depression_readings.first()
     last_reading_time = last_depression_reading.time
     n =  math.floor(tot_time / delta)
+    tot_time_delta = datetime.timedelta(tot_time)
     i = 0
     delta_time = datetime.timedelta(seconds= delta)
     ans= []
@@ -65,6 +66,7 @@ def get_series_data(request,sensor_key,tot_time,delta):#tot_time: seconds, delta
             i += 1
         if i >= n :
             break
+
     return JsonResponse({
         'is_success': True,
         'data_arr': ans
@@ -109,18 +111,21 @@ def register(request):#only for admin aka parents/counsellor
                 user= User.objects.create_user(username = username, password = password1)
                 user.save()
                 if Sensor.objects.filter(key = sensor_key).exists() is True:
-                    curr_sensor = Sensor.objects.get(key= sensor_key)
+                    curr_sensor = Sensor.objects.filter(key = sensor_key).first()
                     new_sensor_added = False
                 else:
                     curr_sensor = Sensor(key = sensor_key)
                     curr_sensor.save()
                     new_sensor_added = True
+                print(curr_sensor)
                 user.extended_reverse.is_admin = True
                 user.extended_reverse.sensor_linked = curr_sensor
+                user.extended_reverse.save()
                 return Response({
                     'is_success': True,
                     'message' : "Successfully registered",
                     'new_sensor_added' : new_sensor_added,
+                    'sensor_key': sensor_key,
                 }, status = 200)                       
         return Response({
             'is_success': False,

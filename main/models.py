@@ -10,7 +10,7 @@ import random
 
 
 class Sensor(models.Model):
-    key = models.CharField(max_length= 100, unique= True)
+    key = models.CharField(max_length= 100)
     hit_count = models.IntegerField(default= 0)#number of times sensor has indicated depression continuosly. If greater than hit count i.e 4 here, depression alert given
     task_id = models.IntegerField(default= 0)
     working = models.BooleanField(default= True)
@@ -36,6 +36,7 @@ class ExtendedUser(models.Model):
 
 @background(schedule=0)
 def repeated_collect_sensor_reading(sensor_key):
+    print(sensor_key)
     my_sensor = Sensor.objects.get(key= sensor_key)
     last_sensor_readings = db.collection('sensor_reading').document(sensor_key).get().to_dict()
     all_sensor_reading_list = []
