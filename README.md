@@ -42,9 +42,9 @@ The IoT system connects to the cloud that lets the authenticated person keep a r
 The app offers people better access to healthcare support beyond their bounds of convenience and connects them to doctors, specialists and healthcare experts on a digital platform, which provides them access to an online expert without a physical visit. For counsellors and parents, it includes a feature to view-track the medical record of the pupil regularly and efficiently.
 
 ## Product :
-<ul><a href="https://github.com/ayushganguli1769/codeutsava/tree/master/Codeutsava%205_IoT">
-<li><img alt="IoT" width="60px" src="https://img.shields.io/badge/IoT-003E54?style=flat-square&logo=SmartThings&logoColor=white" />
-</a>IoT hardware setup - For Performing Preliminary tests for Deepression and Stress Detection</li>
+<ul>
+<li>IoT hardware setup - For Performing Preliminary tests for Deepression and Stress Detection <a href="https://github.com/ayushganguli1769/codeutsava/tree/master/Codeutsava%205_IoT"><img alt="IoT" width="60px" src="https://img.shields.io/badge/IoT-003E54?style=flat-square&logo=SmartThings&logoColor=white" />
+</a></li>
 <li>App - For Realtime Stat monitoring and Notifying Parents and Counsellor about pupils condition</li>
 </ul>
 
