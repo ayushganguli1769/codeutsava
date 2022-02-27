@@ -1,4 +1,4 @@
-# **Team-HardCoders | Raahee** :briefcase:
+# **Team-HardCoders | i-MHM** :briefcase:
 
 ## Track : Mental Health :woman_health_worker:
 <p align="center">
@@ -19,6 +19,11 @@ Background – The pandemic has thrown up several issues in our lives, especiall
   
 <li><p>An eating disorder is a mental illness depicting an unhealthy relationship with your food. This may be eating too much in one sitting or too little food. Anyone can develop an eating disorder. It doesn’t matter what your age, gender, cultural or racial background is.</p></li>
 </ul>
+
+## Screenshot
+<p align="center">
+<img style="float=left;" src="https://github.com/amandewatnitrr/codeutsava/blob/master/Codeutsava%205_IoT/CAD%20Model/Band%20Assembly%20ISO.png"/>
+</p>
 
 ## A safe space for you ❤️
 
