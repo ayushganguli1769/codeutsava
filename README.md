@@ -53,21 +53,23 @@ Background – The pandemic has thrown up several issues in our lives, especiall
 ## Team Members - Domains :family_man_boy_boy:
 <img align="right" src="https://github.com/ShrutiRawal/Team-X_HealthCare-Sanjeevani/blob/master/img_gif/team.png" width="35%"/>
 
-1. Aryan Sarkar- 4th Year (Information Technology)  
+<ul>
+<li>Aryan Sarkar- 4th Year (Information Technology)  
 College : National Institute of Technolgy Raipur  
-Domain : Frontend Developer
-2. Aman Kumar Dewangan - 4th Year (Electrical Engineering)  
+Domain : Frontend Developer</li>
+<li>Aman Kumar Dewangan - 4th Year (Electrical Engineering)  
 College : National Institute of Technolgy Raipur  
-Domain : IoT Developer
-3. Ayush Ganguly - 4th Year (Information Technology)  
+Domain : IoT Developer</li>
+<li>Ayush Ganguly - 4th Year (Information Technology)  
 College : National Institute of Technolgy Raipur  
-Domain : Backend Developer
-4. Aman Verma - 4th Year (Electronics Engineering)
+Domain : Backend Developer</li>
+<li>Aman Verma - 4th Year (Electronics Engineering)
 College : National Institute of Technolgy Raipur  
-Domain : ML/AI Enthusiast and Researcher
-5. Parimal - 3rd Year (Electronics Engineering)
+Domain : ML/AI Enthusiast and Researcher</li>
+<li>Parimal - 3rd Year (Electronics Engineering)
 College : National Institute of Technolgy Raipur  
-Domain :  ML/AI Enthusiast
-6. Rohan Verma - 3rd Year (Metallurgy and Material Science)
+Domain :  ML/AI Enthusiast</li>
+<li>Rohan Verma - 3rd Year (Metallurgy and Material Science)
 College : National Institute of Technolgy Raipur  
-Domain :  Backend Developer
+  Domain :  Backend Developer</li>
+</ul>
