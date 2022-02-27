@@ -63,7 +63,7 @@ The app offers people better access to healthcare support beyond their bounds of
 ![AfterEffect](https://img.shields.io/badge/AfterEffects-9999FF?style=flat-square&logo=Adobe&logoColor=black)
 
 ## Team Members - Domains :family_man_boy_boy:
-<img align="right" src="https://github.com/ShrutiRawal/Team-X_HealthCare-Sanjeevani/blob/master/img_gif/team.png" width="10%"/>
+<img align="right" src="https://github.com/ShrutiRawal/Team-X_HealthCare-Sanjeevani/blob/master/img_gif/team.png" width="35%"/>
 
 <ul>
 <li>Aryan Sarkar- 4th Year (Information Technology)<br>  
