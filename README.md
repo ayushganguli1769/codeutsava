@@ -33,3 +33,7 @@ Background – The pandemic has thrown up several issues in our lives, especiall
 <li> Notification Alert to your parents and counsellors
 <li> Preliminary Monitoring with Hardware
 </ul>
+
+## Product :
+1. IoT hardware setup - For Performing Preliminary tests for Deepression and Stress Detection
+2. App - For Realtime Stat monitoring and Notifying Parents and Counsellor about pupils condition
