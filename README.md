@@ -1,4 +1,4 @@
-# **Team-HardCoders | Sanjeevani** :briefcase:
+# **Team-HardCoders | Raahee** :briefcase:
 <a href="https://github.com/ayushganguli1769/codeutsava/tree/master/Codeutsava%205_IoT">
   <img alt="IoT" width="100px" src="https://img.shields.io/badge/IoT-003E54?style=flat-square&logo=SmartThings&logoColor=white" />
 </a>
