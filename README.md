@@ -28,7 +28,7 @@ Background – The pandemic has thrown up several issues in our lives, especiall
 <h3>Using our app :iphone:, you can keep a track of your emotions and keep a check on your mental health.</h3>
 
 <ul>
-<li> Mood Trackers 
+<li> Mood, Stress and Deepression Tracker
 <li> Guided Journal
 <li> Notification Alert to your parents and counsellors
 <li> Preliminary Monitoring with Hardware
