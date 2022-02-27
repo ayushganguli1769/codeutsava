@@ -44,9 +44,9 @@ The app offers people better access to healthcare support beyond their bounds of
 ## Product :
 1. IoT hardware setup - For Performing Preliminary tests for Deepression and Stress Detection
 <a href="https://github.com/ayushganguli1769/codeutsava/tree/master/Codeutsava%205_IoT">
-  <img alt="IoT" width="100px" src="https://img.shields.io/badge/IoT-003E54?style=flat-square&logo=SmartThings&logoColor=white" />
+  <img alt="IoT" width="20px" src="https://img.shields.io/badge/IoT-003E54?style=flat-square&logo=SmartThings&logoColor=white" />
 </a>
-3. App - For Realtime Stat monitoring and Notifying Parents and Counsellor about pupils condition
+2. App - For Realtime Stat monitoring and Notifying Parents and Counsellor about pupils condition
 
 ## Tech Stack be used :
 ![Python](https://img.shields.io/badge/Python-9FEF00?style=flat-square&logo=Python&logoColor=black)
