@@ -43,6 +43,7 @@ Background – The pandemic has thrown up several issues in our lives, especiall
 ![Firebase](https://img.shields.io/badge/Firebase-ffcb2c?style=flat-square&logo=Firebase&logoColor=DD1100)
 ![Arduino](https://img.shields.io/badge/Arduino-C51A4A?style=flat-square&logo=arduino&logoColor=white)
 ![CAD](https://img.shields.io/badge/CAD-721412?style=flat-square&logo=Prisma&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white)
