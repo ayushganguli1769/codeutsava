@@ -23,13 +23,13 @@ Background – The pandemic has thrown up several issues in our lives, especiall
 <li><p>An eating disorder is a mental illness depicting an unhealthy relationship with your food. This may be eating too much in one sitting or too little food. Anyone can develop an eating disorder. It doesn’t matter what your age, gender, cultural or racial background is.</p></li>
 </ul>
 
-# A safe space for you
+# A safe space for you ❤️
 
-<h3>Using our app, you can keep a track of your emotions and keep a check on your mental health.</h3>
+<h3>Using our app :iphone:, you can keep a track of your emotions and keep a check on your mental health.</h3>
 
 <ul>
-<li>Mood Trackers 
-<li>Guided Journal
+<li> Mood Trackers 
+<li> Guided Journal
 <li> Notification Alert to your parents and counsellors
 <li> Preliminary Monitoring with Hardware
 </ul>
