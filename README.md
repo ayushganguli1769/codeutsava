@@ -26,6 +26,7 @@ Background – The pandemic has thrown up several issues in our lives, especiall
 
 <ul>
 <li> Mood, Stress and Deepression Tracker
+<li> Admin Panel - For Monitoring by Parents and Counsellor
 <li> Guided Journal
 <li> Notification Alert to your parents and counsellors
 <li> Preliminary Monitoring with Hardware
