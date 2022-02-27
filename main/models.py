@@ -7,7 +7,9 @@ db = settings.MY_DB
 from background_task import background
 from datetime import datetime
 import random
+import numpy
 
+from .ml_model import main_model_stress_function
 
 class Sensor(models.Model):
     key = models.CharField(max_length= 100)
@@ -15,10 +17,10 @@ class Sensor(models.Model):
     task_id = models.IntegerField(default= 0)
     working = models.BooleanField(default= True)
 
-class DepressionReading(models.Model):
+class DepressionReading(models.Model):#depression and stress in same
     depression_reading_sensor = models.ForeignKey(Sensor, on_delete = models.CASCADE , related_name='depression_reading_reverse')
-    depression_index = models.FloatField(default=0)
-    stress_index = models.FloatField(default=0)
+    depression_index = models.FloatField(default=0)# percentage , model returns between 0 to 1 convert to percentage
+    stress_index = models.FloatField(default=0)# 0,1,2 baseline, stress, amusement
     time = models.DateTimeField(auto_now = True)
 
 class SensorReading(models.Model):
@@ -40,7 +42,11 @@ def repeated_collect_sensor_reading(sensor_key):
     my_sensor = Sensor.objects.get(key= sensor_key)
     last_sensor_readings = db.collection('sensor_reading').document(sensor_key).get().to_dict()
     all_sensor_reading_list = []
-    for curr_dict in last_sensor_readings['previous_readings']:
+    stress_ecg_arr = []
+    threshold = 2560
+    if len(last_sensor_readings['previous_readings'] ) < 2560:
+        return
+    for curr_dict in last_sensor_readings['previous_readings'][:threshold]:
         #print(curr_dict)
         tm = curr_dict['time']
         year, month , day, hour, minute , second =  list(map(int,tm.split('/')) )
@@ -54,11 +60,12 @@ def repeated_collect_sensor_reading(sensor_key):
             accelorometer_z= curr_dict['z'],
             time = dt_obj
         )
+        stress_ecg_arr.append(curr_dict['ecg'])
         all_sensor_reading_list.append(curr_sensor_reading)
     #after prediction
     #SensorReading.objects.bulk_create(all_sensor_reading_list)
-    stress_index = random.randrange(1,100,1)
-    depression_index = random.randrange(1,100,1)
+    stress_index = main_model_stress_function(numpy.array(stress_ecg_arr))#array converted to numpy array
+    depression_index = random.randrange(51,79,1)
     new_depression_reading = DepressionReading(
             depression_reading_sensor = my_sensor,
             stress_index = stress_index, 
