@@ -14,4 +14,6 @@ To create an informative AI-based tool that should be able to give alerts and id
 
 <img align="right" src="https://github.com/ShrutiRawal/Team-X_HealthCare-Sanjeevani/blob/master/img_gif/hospital.gif" width="45%"/>
 
-Background – The pandemic has thrown up several issues in our lives, especially in the lives of children, it has impacted the mental health and well being of children. There is a need for better surveillance tools to access and track the prevalence of mental health issues and untangle congenital and acquired conditions to provide for appropriate remediation and counselling.
+Background – The pandemic has thrown up several issues in our lives, especially in the lives of children, it has impacted the mental health and well being of children. There is a need for better surveillance tools to access and track the prevalence of mental health issues and untangle congenital and acquired conditions to provide for appropriate remediation and counselling.<br>
+
+Most people, especially those who have not actually studied and researched about mental health, cannot gauge the broad scope and entirety of it. As a result, there is a lot of misinformation and widely believed myths and stigmas about mental health. It is essential to bust these myths before we can begin to envision a mentally healthy society.
