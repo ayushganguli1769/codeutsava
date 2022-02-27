@@ -1,7 +1,4 @@
 # **Team-HardCoders | Raahee** :briefcase:
-<a href="https://github.com/ayushganguli1769/codeutsava/tree/master/Codeutsava%205_IoT">
-  <img alt="IoT" width="100px" src="https://img.shields.io/badge/IoT-003E54?style=flat-square&logo=SmartThings&logoColor=white" />
-</a>
 
 ## Track : Mental Health :woman_health_worker:
 <p align="center">
@@ -46,7 +43,10 @@ The app offers people better access to healthcare support beyond their bounds of
 
 ## Product :
 1. IoT hardware setup - For Performing Preliminary tests for Deepression and Stress Detection
-2. App - For Realtime Stat monitoring and Notifying Parents and Counsellor about pupils condition
+<a href="https://github.com/ayushganguli1769/codeutsava/tree/master/Codeutsava%205_IoT">
+  <img alt="IoT" width="100px" src="https://img.shields.io/badge/IoT-003E54?style=flat-square&logo=SmartThings&logoColor=white" />
+</a>
+3. App - For Realtime Stat monitoring and Notifying Parents and Counsellor about pupils condition
 
 ## Tech Stack be used :
 ![Python](https://img.shields.io/badge/Python-9FEF00?style=flat-square&logo=Python&logoColor=black)
@@ -62,7 +62,7 @@ The app offers people better access to healthcare support beyond their bounds of
 ![AfterEffect](https://img.shields.io/badge/AfterEffects-9999FF?style=flat-square&logo=Adobe&logoColor=black)
 
 ## Team Members - Domains :family_man_boy_boy:
-<img align="right" src="https://github.com/ShrutiRawal/Team-X_HealthCare-Sanjeevani/blob/master/img_gif/team.png" width="35%"/>
+<img align="right" src="https://github.com/ShrutiRawal/Team-X_HealthCare-Sanjeevani/blob/master/img_gif/team.png" width="10%"/>
 
 <ul>
 <li>Aryan Sarkar- 4th Year (Information Technology)<br>  
