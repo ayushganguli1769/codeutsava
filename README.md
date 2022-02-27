@@ -50,3 +50,26 @@ Background – The pandemic has thrown up several issues in our lives, especiall
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)
 ![AfterEffect](https://img.shields.io/badge/AfterEffects-9999FF?style=flat-square&logo=Adobe&logoColor=black)
 
+## Team Members - Domains :family_man_boy_boy:
+<img align="right" src="https://github.com/ShrutiRawal/Team-X_HealthCare-Sanjeevani/blob/master/img_gif/team.png" width="35%"/>
+
+<ul>
+<li>Aryan Sarkar- 4th Year (Information Technology)<br>  
+College : National Institute of Technolgy Raipur  <br>
+Domain : Frontend Developer</li>
+<li>Aman Kumar Dewangan - 4th Year (Electrical Engineering)  <br>
+College : National Institute of Technolgy Raipur  <br>
+Domain : IoT Developer</li>
+<li>Ayush Ganguly - 4th Year (Information Technology)  <br>
+College : National Institute of Technolgy Raipur  <br>
+Domain : Backend Developer</li>
+<li>Aman Verma - 4th Year (Electronics Engineering)<br>
+College : National Institute of Technolgy Raipur  <br>
+Domain : ML/AI Enthusiast and Researcher</li>
+<li>Parimal - 3rd Year (Electronics Engineering)<br>
+College : National Institute of Technolgy Raipur  <br>
+Domain :  ML/AI Enthusiast</li>
+<li>Rohan Verma - 3rd Year (Metallurgy and Material Science)<br>
+College : National Institute of Technolgy Raipur  <br>
+  Domain :  Backend Developer</li>
+</ul>
