@@ -25,12 +25,13 @@ def get_instantenous_data(request,sensor_key):
         last_depression_reading = curr_sensor.depression_reading_reverse.last()
         curr_time = last_depression_reading.time 
         recorded_time_string = "%d/%d/%d/%d/%d/%d"%(curr_time.year, curr_time.month, curr_time.day,curr_time.hour, curr_time.minute, curr_time.second)
+        alert_bool = last_depression_reading.stress_index == 1
         return JsonResponse({
             'is_success': True,
             'recorded_time' : recorded_time_string,
             'depression_index': last_depression_reading.depression_index,
             'stress_index': last_depression_reading.stress_index,
-            'alert': True,#true means child has mental problems
+            'alert': alert_bool,#true means child has mental problems
         }, status = 200)
     except Exception as e:
         print(e)
