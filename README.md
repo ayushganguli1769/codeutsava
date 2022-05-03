@@ -41,7 +41,7 @@ Background – The pandemic has thrown up several issues in our lives, especiall
 
 ## **Solution :**  	:key:
 <img align="left" style="float=left;" src="https://github.com/ShrutiRawal/Team-X_HealthCare-Sanjeevani/blob/master/img_gif/bb0cc783196fa9b2119864ff90eb5702.gif" width="53%"/>
-Raahee is an ML/IoT based Real-Time Mental Health Monitoring and Consultation System.<br><br>
+i-MHM is an ML/IoT based Real-Time Mental Health Monitoring and Consultation System.<br><br>
 
 The IoT system connects to the cloud that lets the authenticated person keep a real-time check on some basic parameters like ECG, body posture etc. Using Bio-Sensors and Microprocessor that transmits the data to Firebase  for storage in the database and henceforth is accessible by the authenticated person(Parents and Counsellor).<br><br>
 
